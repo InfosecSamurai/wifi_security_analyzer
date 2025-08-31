@@ -1,8 +1,24 @@
-# Ignore Python cache files
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
 
-# Ignore system files
+# Virtual environments
+venv/
+.env/
+
+# System files
 .DS_Store
+
+# Editor configs
 .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# WiFi capture files
+captures/*.pcap
